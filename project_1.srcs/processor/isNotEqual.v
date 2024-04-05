@@ -1,0 +1,40 @@
+ module isNotEqual(res, A, B);
+    input [31:0] A, B;
+    output res;
+    wire w0, w1, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11, w12, w13, w14, w15, w16, w17, w18, w19, w20, w21, w22, w23, w24, w25, w26, w27, w28, w29, w30, w31;
+    xor gate0(w0, A[0], B[0]);
+    xor gate1(w1, A[1], B[1]);
+    xor gate2(w2, A[2], B[2]);
+    xor gate3(w3, A[3], B[3]);
+    xor gate4(w4, A[4], B[4]);
+    xor gate5(w5, A[5], B[5]);
+    xor gate6(w6, A[6], B[6]);
+    xor gate7(w7, A[7], B[7]);
+    xor gate8(w8, A[8], B[8]);
+    xor gate9(w9, A[9], B[9]);
+    xor gate10(w10, A[10], B[10]);
+    xor gate11(w11, A[11], B[11]);
+    xor gate12(w12, A[12], B[12]);
+    xor gate13(w13, A[13], B[13]);
+    xor gate14(w14, A[14], B[14]);
+    xor gate15(w15, A[15], B[15]);
+    xor gate16(w16, A[16], B[16]);
+    xor gate17(w17, A[17], B[17]);
+    xor gate18(w18, A[18], B[18]);
+    xor gate19(w19, A[19], B[19]);
+    xor gate20(w20, A[20], B[20]);
+    xor gate21(w21, A[21], B[21]);
+    xor gate22(w22, A[22], B[22]);
+    xor gate23(w23, A[23], B[23]);
+    xor gate24(w24, A[24], B[24]);
+    xor gate25(w25, A[25], B[25]);
+    xor gate26(w26, A[26], B[26]);
+    xor gate27(w27, A[27], B[27]);
+    xor gate28(w28, A[28], B[28]);
+    xor gate29(w29, A[29], B[29]);
+    xor gate30(w30, A[30], B[30]);
+    xor gate31(w31, A[31], B[31]);
+    or gate32(res, w0, w1, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11, w12, w13, w14, w15, w16, w17, w18, w19, w20, w21, w22, w23, w24, w25, w26, w27, w28, w29, w30, w31);
+    
+
+ endmodule

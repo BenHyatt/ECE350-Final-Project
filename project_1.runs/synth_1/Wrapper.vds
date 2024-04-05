@@ -1,0 +1,433 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Apr  5 12:20:18 2024
+# Process ID: 8432
+# Current directory: C:/Users/bhu4/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log Wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Wrapper.tcl
+# Log file: C:/Users/bhu4/project_1/project_1.runs/synth_1/Wrapper.vds
+# Journal file: C:/Users/bhu4/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Wrapper.tcl -notrace
+Command: synth_design -top Wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13636
+WARNING: [Synth 8-6901] identifier 'PULSE_WINDOW' is used before its declaration [C:/Users/bhu4/Downloads/lab8_kit/lab8_kit/PWMSerializer.v:32]
+WARNING: [Synth 8-992] c8 is already implicitly declared earlier [C:/Users/bhu4/project_1/project_1.srcs/processor/adderFull.v:14]
+WARNING: [Synth 8-992] c16 is already implicitly declared earlier [C:/Users/bhu4/project_1/project_1.srcs/processor/adderFull.v:14]
+WARNING: [Synth 8-992] c24 is already implicitly declared earlier [C:/Users/bhu4/project_1/project_1.srcs/processor/adderFull.v:14]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:6]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:9]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:12]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:15]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:18]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:21]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:24]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:27]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:30]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:33]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:36]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:39]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:42]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:45]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:48]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:51]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:54]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:57]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:60]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:63]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:66]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:69]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:72]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:75]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:78]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:81]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:84]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:87]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:90]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:93]
+WARNING: [Synth 8-6901] identifier 'leftCarry_31' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:96]
+WARNING: [Synth 8-992] D_IR is already implicitly declared earlier [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:91]
+WARNING: [Synth 8-992] X_changePC is already implicitly declared earlier [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:201]
+WARNING: [Synth 8-992] M_IR is already implicitly declared earlier [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:228]
+WARNING: [Synth 8-6901] identifier 'X_IR' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:79]
+WARNING: [Synth 8-6901] identifier 'X_isLoadWord' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:79]
+WARNING: [Synth 8-6901] identifier 'X_IR' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:80]
+WARNING: [Synth 8-6901] identifier 'X_IR' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:81]
+WARNING: [Synth 8-6901] identifier 'X_IR' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:82]
+WARNING: [Synth 8-6901] identifier 'X_changePC' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:85]
+WARNING: [Synth 8-6901] identifier 'X_PC_Out' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:85]
+WARNING: [Synth 8-6901] identifier 'M_ALUOUT' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:155]
+WARNING: [Synth 8-6901] identifier 'M_ALUOUT' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:167]
+WARNING: [Synth 8-6901] identifier 'M_isStoreWord' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:243]
+WARNING: [Synth 8-6901] identifier 'W_isStoreWord' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:257]
+WARNING: [Synth 8-6901] identifier 'W_ALUOUT' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:257]
+WARNING: [Synth 8-6901] identifier 'W_BHack' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:258]
+WARNING: [Synth 8-6901] identifier 'signal' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/sources_1/new/servo_ctrl.v:33]
+WARNING: [Synth 8-6901] identifier 'signal' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/sources_1/new/servo_ctrl.v:34]
+WARNING: [Synth 8-6901] identifier 'signal' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/sources_1/new/servo_ctrl.v:35]
+WARNING: [Synth 8-6901] identifier 'signal' is used before its declaration [C:/Users/bhu4/project_1/project_1.srcs/sources_1/new/servo_ctrl.v:36]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1329.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Wrapper' [C:/Users/bhu4/project_1/project_1.srcs/processor/Wrapper.v:27]
+INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:20]
+INFO: [Synth 8-6157] synthesizing module 'readsRS' [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'readsRS' (1#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:16]
+INFO: [Synth 8-6157] synthesizing module 'readsRT' [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'readsRT' (2#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:22]
+INFO: [Synth 8-6157] synthesizing module 'readsRDasB' [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'readsRDasB' (3#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:28]
+INFO: [Synth 8-6157] synthesizing module 'register_module' [C:/Users/bhu4/project_1/project_1.srcs/processor/dffe_ref.v:33]
+INFO: [Synth 8-6157] synthesizing module 'dffe_ref' [C:/Users/bhu4/project_1/project_1.srcs/processor/dffe_ref.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dffe_ref' (4#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/dffe_ref.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'register_module' (5#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/dffe_ref.v:33]
+INFO: [Synth 8-6157] synthesizing module 'adderFull' [C:/Users/bhu4/project_1/project_1.srcs/processor/adderFull.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adderBlock' [C:/Users/bhu4/project_1/project_1.srcs/processor/adderBlock.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adderOne' [C:/Users/bhu4/project_1/project_1.srcs/processor/adderBlock.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'adderOne' (6#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/adderBlock.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'adderBlock' (7#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/adderBlock.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adderFull' (8#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/adderFull.v:1]
+INFO: [Synth 8-6157] synthesizing module 'writesToRD' [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'writesToRD' (9#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v:10]
+INFO: [Synth 8-6157] synthesizing module 'signExtender' [C:/Users/bhu4/project_1/project_1.srcs/processor/signExtender.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'signExtender' (10#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/signExtender.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/bhu4/project_1/project_1.srcs/processor/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'notGate' [C:/Users/bhu4/project_1/project_1.srcs/processor/notGate.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'notGate' (11#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/notGate.v:1]
+INFO: [Synth 8-6157] synthesizing module 'isNotEqual' [C:/Users/bhu4/project_1/project_1.srcs/processor/isNotEqual.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'isNotEqual' (12#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/isNotEqual.v:1]
+INFO: [Synth 8-6157] synthesizing module 'andGate' [C:/Users/bhu4/project_1/project_1.srcs/processor/andGate.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'andGate' (13#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/andGate.v:1]
+INFO: [Synth 8-6157] synthesizing module 'orGate' [C:/Users/bhu4/project_1/project_1.srcs/processor/orGate.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'orGate' (14#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/orGate.v:1]
+INFO: [Synth 8-6157] synthesizing module 'leftShifter' [C:/Users/bhu4/project_1/project_1.srcs/processor/leftShifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sixteenLeftShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sixteenLeftShift' (15#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:1]
+INFO: [Synth 8-6157] synthesizing module 'eightLeftShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'eightLeftShift' (16#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:8]
+INFO: [Synth 8-6157] synthesizing module 'fourLeftShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'fourLeftShift' (17#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:16]
+INFO: [Synth 8-6157] synthesizing module 'twoLeftShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'twoLeftShift' (18#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:24]
+INFO: [Synth 8-6157] synthesizing module 'oneLeftShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'oneLeftShift' (19#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'leftShifter' (20#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/leftShifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'rightShifter' [C:/Users/bhu4/project_1/project_1.srcs/processor/rightShifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sixteenRightShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'sixteenRightShift' (21#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:38]
+INFO: [Synth 8-6157] synthesizing module 'eightRightShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'eightRightShift' (22#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:45]
+INFO: [Synth 8-6157] synthesizing module 'fourRightShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'fourRightShift' (23#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:52]
+INFO: [Synth 8-6157] synthesizing module 'twoRightShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'twoRightShift' (24#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:59]
+INFO: [Synth 8-6157] synthesizing module 'oneRightShift' [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'oneRightShift' (25#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'rightShifter' (26#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/rightShifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_32' [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_8' [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_4' [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_2' [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2' (27#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4' (28#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_8' (29#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_32' (30#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/mux_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (31#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'multdiv' [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WTM' [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:136]
+INFO: [Synth 8-6157] synthesizing module 'halfAdder' [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'halfAdder' (32#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:82]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder' [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder' (33#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'WTM' (34#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:136]
+INFO: [Synth 8-6157] synthesizing module 'dividerThird' [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PELL' [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'PELL' (35#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'dividerThird' (36#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v:1]
+INFO: [Synth 8-6157] synthesizing module 'my_dff' [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'my_dff' (37#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'multdiv' (38#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v:1]
+INFO: [Synth 8-6157] synthesizing module 'signExtenderJ' [C:/Users/bhu4/project_1/project_1.srcs/processor/signExtender.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'signExtenderJ' (39#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/signExtender.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ts32' [C:/Users/bhu4/project_1/project_1.srcs/processor/tri_state.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'ts32' (40#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/tri_state.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'processor' (41#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v:20]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [C:/Users/bhu4/project_1/project_1.srcs/processor/ROM.v:2]
+	Parameter MEMFILE bound to: 112'b0110100001100001011011000110110001011111011000100110000101110011011010010110001100101110011011010110010101101101 
+INFO: [Synth 8-3876] $readmem data file 'hall_basic.mem' is read successfully [C:/Users/bhu4/project_1/project_1.srcs/processor/ROM.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (42#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/ROM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/bhu4/project_1/project_1.srcs/processor/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'decoder32' [C:/Users/bhu4/project_1/project_1.srcs/processor/tri_state.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'decoder32' (43#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/tri_state.v:86]
+INFO: [Synth 8-6157] synthesizing module 'register_moduleZero' [C:/Users/bhu4/project_1/project_1.srcs/processor/dffe_ref.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'register_moduleZero' (44#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/dffe_ref.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (45#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [C:/Users/bhu4/project_1/project_1.srcs/processor/RAM.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (46#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/RAM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'servo_ctrl' [C:/Users/bhu4/project_1/project_1.srcs/sources_1/new/servo_ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PWMSerializer' [C:/Users/bhu4/Downloads/lab8_kit/lab8_kit/PWMSerializer.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'PWMSerializer' (47#1) [C:/Users/bhu4/Downloads/lab8_kit/lab8_kit/PWMSerializer.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'servo_ctrl' (48#1) [C:/Users/bhu4/project_1/project_1.srcs/sources_1/new/servo_ctrl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Wrapper' (49#1) [C:/Users/bhu4/project_1/project_1.srcs/processor/Wrapper.v:27]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1329.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1329.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 1329.148 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'JB[7]'. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[8]'. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[9]'. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[10]'. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1421.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1421.348 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1421.348 ; gain = 92.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1421.348 ; gain = 92.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1421.348 ; gain = 92.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3971] The signal "RAM:/MemoryArray_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1421.348 ; gain = 92.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 2205  
+	   2 Input      1 Bit         XORs := 99    
++---Registers : 
+	               32 Bit    Registers := 4     
+	                1 Bit    Registers := 1443  
++---RAMs : 
+	             128K Bit	(4096 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 66    
+	 101 Input   32 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 1054  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP servo_control/serializer/duty_cycle_normalized0, operation Mode is: (A:0x30d40)*B.
+DSP Report: operator servo_control/serializer/duty_cycle_normalized0 is absorbed into DSP servo_control/serializer/duty_cycle_normalized0.
+INFO: [Synth 8-3971] The signal "Wrapper/ProcMem/MemoryArray_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:18 ; elapsed = 00:02:19 . Memory (MB): peak = 1697.770 ; gain = 368.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
+-------NONE-------
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping Report (see note below)
++--------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name   | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|PWMSerializer | (A:0x30d40)*B | 18     | 7      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 1697.770 ; gain = 368.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:27 ; elapsed = 00:02:28 . Memory (MB): peak = 1697.770 ; gain = 368.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
+-------NONE-------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_2_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_2_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:31 ; elapsed = 00:02:32 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:34 ; elapsed = 00:02:35 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:34 ; elapsed = 00:02:35 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:34 ; elapsed = 00:02:35 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:34 ; elapsed = 00:02:35 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:34 ; elapsed = 00:02:35 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:34 ; elapsed = 00:02:35 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |    68|
+|3     |DSP48E1  |     1|
+|4     |LUT1     |    31|
+|5     |LUT2     |   520|
+|6     |LUT3     |   267|
+|7     |LUT4     |   883|
+|8     |LUT5     |   754|
+|9     |LUT6     |  2298|
+|10    |RAMB36E1 |     6|
+|11    |FDCE     |   600|
+|12    |FDRE     |    46|
+|13    |IBUF     |     3|
+|14    |OBUF     |    20|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:34 ; elapsed = 00:02:35 . Memory (MB): peak = 1957.633 ; gain = 628.484
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:26 ; elapsed = 00:02:32 . Memory (MB): peak = 1957.633 ; gain = 536.285
+Synthesis Optimization Complete : Time (s): cpu = 00:02:35 ; elapsed = 00:02:36 . Memory (MB): peak = 1957.633 ; gain = 628.484
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 1957.633 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1957.633 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: cf9bbb85
+INFO: [Common 17-83] Releasing license: Synthesis
+122 Infos, 59 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:38 ; elapsed = 00:02:40 . Memory (MB): peak = 1957.633 ; gain = 628.484
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bhu4/project_1/project_1.runs/synth_1/Wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Wrapper_utilization_synth.rpt -pb Wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  5 12:23:04 2024...

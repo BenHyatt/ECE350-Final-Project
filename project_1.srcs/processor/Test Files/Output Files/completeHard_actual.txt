@@ -1,0 +1,96 @@
+Cycle  11: Wrote 4 into register 1
+Cycle  12: Wrote 5 into register 2
+Cycle  13: Wrote 4294967292 into register 3
+Cycle  14: Wrote 4294967291 into register 4
+Cycle  18: Wrote 1 into register 10
+Cycle  20: Wrote 2 into register 10
+Cycle  21: Wrote 2 into register 11
+Cycle  22: Wrote 0 into register 23
+Cycle  23: Wrote 0 into register 23
+Cycle  24: Wrote 0 into register 23
+Cycle  25: Wrote 0 into register 10
+Cycle  26: Wrote 0 into register 20
+Cycle  27: Wrote 0 into register 21
+Cycle  28: Wrote 0 into register 22
+Cycle  32: Wrote 1 into register 10
+Cycle  34: Wrote 2 into register 10
+Cycle  38: Wrote 3 into register 10
+Cycle  40: Wrote 4 into register 10
+Cycle  45: Wrote 5 into register 10
+Cycle  47: Wrote 6 into register 10
+Cycle  50: Wrote 8 into register 11
+Cycle  51: Wrote 0 into register 23
+Cycle  52: Wrote 0 into register 23
+Cycle  53: Wrote 0 into register 23
+Cycle  54: Wrote 0 into register 10
+Cycle  55: Wrote 0 into register 20
+Cycle  56: Wrote 0 into register 21
+Cycle  57: Wrote 0 into register 22
+Cycle  61: Wrote 1 into register 10
+Cycle  62: Wrote 9 into register 11
+Cycle  63: Wrote 0 into register 23
+Cycle  64: Wrote 0 into register 23
+Cycle  65: Wrote 0 into register 23
+Cycle  66: Wrote 0 into register 10
+Cycle  67: Wrote 0 into register 20
+Cycle  68: Wrote 0 into register 21
+Cycle  69: Wrote 0 into register 22
+Cycle  70: Wrote 139 into register 31
+Cycle  71: Wrote 73 into register 31
+Cycle  74: Wrote 1 into register 10
+Cycle  75: Wrote 90 into register 31
+Cycle  79: Wrote 0 into register 22
+Cycle  82: Wrote 0 into register 30
+Cycle  89: Wrote 2 into register 10
+Cycle  91: Wrote 10 into register 30
+Cycle  97: Wrote 3 into register 10
+Cycle 100: Wrote 12 into register 11
+Cycle 101: Wrote 0 into register 23
+Cycle 105: Wrote 0 into register 23
+Cycle 109: Wrote 0 into register 23
+Cycle 113: Wrote 0 into register 10
+Cycle 114: Wrote 0 into register 20
+Cycle 115: Wrote 0 into register 21
+Cycle 116: Wrote 0 into register 22
+Cycle 124: Wrote 1 into register 10
+Cycle 129: Wrote 2 into register 10
+Cycle 134: Wrote 149 into register 31
+Cycle 143: Wrote 14 into register 11
+Cycle 144: Wrote 0 into register 23
+Cycle 148: Wrote 0 into register 23
+Cycle 152: Wrote 0 into register 10
+Cycle 153: Wrote 0 into register 20
+Cycle 154: Wrote 0 into register 21
+============== Testing Mode ==============
+Reg  0:           0
+Reg  1:           4
+Reg  2:           5
+Reg  3:  4294967292
+Reg  4:  4294967291
+Reg  5:           0
+Reg  6:           0
+Reg  7:           0
+Reg  8:           0
+Reg  9:           0
+Reg 10:           0
+Reg 11:          14
+Reg 12:           0
+Reg 13:           0
+Reg 14:           0
+Reg 15:           0
+Reg 16:           0
+Reg 17:           0
+Reg 18:           0
+Reg 19:           0
+Reg 20:           0
+Reg 21:           0
+Reg 22:           0
+Reg 23:           0
+Reg 24:           0
+Reg 25:           0
+Reg 26:           0
+Reg 27:           0
+Reg 28:           0
+Reg 29:           0
+Reg 30:          10
+Reg 31:         149
