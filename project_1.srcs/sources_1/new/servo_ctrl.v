@@ -27,13 +27,10 @@ module servo_ctrl(
 //    output[6:0] duty_cycle,       // Duty Cycle of the Wave, between 0 and 99
 //    output reg signal = 0,
 //    output wire [1:1] JA_out,
-    output wire [4:1] JB_out
+    output wire [1:1] JB_out
     );
     
     assign JB_out[1] = signal;
-    assign JB_out[2] = signal;
-    assign JB_out[3] = signal;
-    assign JB_out[4] = signal;
     
     
     wire signal;

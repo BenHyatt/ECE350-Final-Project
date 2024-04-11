@@ -4,12 +4,13 @@ module RAM #( parameter DATA_WIDTH = 32, ADDRESS_WIDTH = 12, DEPTH = 4096) (
     input wire                     wEn,
     input wire [ADDRESS_WIDTH-1:0] addr,
     input wire [ADDRESS_WIDTH-1:0] addrMotorA,
+    input wire [ADDRESS_WIDTH-1:0] addrMotorB,
     input wire [ADDRESS_WIDTH-1:0] addrSensorA,
     input wire [DATA_WIDTH-1:0]    dataIn,
     input wire [DATA_WIDTH-1:0]    dataInSensorA,
     output reg [DATA_WIDTH-1:0]    dataOut = 0,
-    output reg [DATA_WIDTH-1:0]    dataOutMotorA = 0
-    
+    output reg [DATA_WIDTH-1:0]    dataOutMotorA = 0,
+    output reg [DATA_WIDTH-1:0]    dataOutMotorB = 0    
     );
     
     reg[DATA_WIDTH-1:0] MemoryArray[0:DEPTH-1];
@@ -31,6 +32,7 @@ module RAM #( parameter DATA_WIDTH = 32, ADDRESS_WIDTH = 12, DEPTH = 4096) (
             MemoryArray[addrSensorA] <= dataInSensorA;
             dataOut <= MemoryArray[addr];
             dataOutMotorA <= MemoryArray[addrMotorA];
+            dataOutMotorB <= MemoryArray[addrMotorB];
         end
     end
 endmodule

@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/bhu4/project_1/project_1.runs/synth_1/Wrapper.tcl"
+  variable script "C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.runs/synth_1/Wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,51 +70,51 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 3
 set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/bhu4/project_1/project_1.cache/wt [current_project]
-set_property parent.project_path C:/Users/bhu4/project_1/project_1.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.cache/wt [current_project]
+set_property parent.project_path C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/bhu4/project_1/project_1.cache/ip [current_project]
+set_property ip_output_repo c:/Users/bhu4/project_1/ECE350-Final-Project/project_1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_mem C:/Users/bhu4/project_1/project_1.srcs/processor/motor_test.mem
+read_mem C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/motor_test.mem
 read_verilog -library xil_defaultlib {
   C:/Users/bhu4/Downloads/lab8_kit/lab8_kit/PWMSerializer.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/RAM.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/ROM.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/adderBlock.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/adderFull.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/alu.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/andGate.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/dffe_ref.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/dividerThird.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/isNotEqual.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/isRorI.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/leftShifter.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/multdiv.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/mux_2.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/mux_32.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/mux_4.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/mux_8.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/notGate.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/orGate.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/processor.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/regfile.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/rightShifter.v
-  C:/Users/bhu4/project_1/project_1.srcs/sources_1/new/servo_ctrl.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/shifterParts.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/signExtender.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/tri_state.v
-  C:/Users/bhu4/project_1/project_1.srcs/processor/Wrapper.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/RAM.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/ROM.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/adderBlock.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/adderFull.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/alu.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/andGate.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/dffe_ref.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/dividerThird.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/isNotEqual.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/isRorI.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/leftShifter.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/multdiv.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/mux_2.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/mux_32.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/mux_4.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/mux_8.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/notGate.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/orGate.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/processor.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/regfile.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/rightShifter.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/sources_1/new/servo_ctrl.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/shifterParts.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/signExtender.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/tri_state.v
+  C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/processor/Wrapper.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -125,8 +125,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc
-set_property used_in_implementation false [get_files C:/Users/bhu4/Downloads/lab-3-starter/lab-3-master/master.xdc]
+read_xdc C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/master.xdc
+set_property used_in_implementation false [get_files C:/Users/bhu4/project_1/ECE350-Final-Project/project_1.srcs/master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

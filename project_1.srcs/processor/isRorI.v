@@ -1,10 +1,10 @@
- module isRorI(res, A);
-    input [31:0] A;
-    output res;
+// module isRorI(res, A);
+//    input [31:0] A;
+//    output res;
     
-    assign res = (~A[31] & ~A[30] & ~A[29] & ~A[27]) | (~A[31] & ~A[30] & A[28] & ~A[27]) | (~A[31] & ~A[30] & A[29] & A[27]);
+//    assign res = (~A[31] & ~A[30] & ~A[29] & ~A[27]) | (~A[31] & ~A[30] & A[28] & ~A[27]) | (~A[31] & ~A[30] & A[29] & A[27]);
 
- endmodule
+// endmodule
 
 
 module writesToRD(res, A);

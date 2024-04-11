@@ -24,7 +24,7 @@
  *
  **/
 
-module Wrapper (input CLK100MHZ, input BTNR, output [4:1] JB, output [15:0] LED, input [4:1] JC);
+module Wrapper (input CLK100MHZ, input BTNR, output [1:1] JB, output [15:0] LED, input [4:1] JC);
 //	divide the 100MHZ clock;
 	reg clockdiv_reg;
     reg[31:0] count;
@@ -44,11 +44,12 @@ module Wrapper (input CLK100MHZ, input BTNR, output [4:1] JB, output [15:0] LED,
 	wire[4:0] rd, rs1, rs2;
 	wire[31:0] instAddr, instData, 
 		rData, regA, regB,
-		memAddr, memAddrMotorA, memDataIn, memDataOut, memDataOutMotorA, memAddrSensorA;
+		memAddr, memAddrMotorA, memDataIn, memDataOut, memDataOutMotorA, memAddrSensorA, memAddrMotorB, memAddrSensorB, memDataOutMotorB;
 
 
 	// ADD YOUR MEMORY FILE HERE
-	localparam INSTR_FILE = "hall_basic";
+	//localparam INSTR_FILE = "hall_basic";
+	localparam INSTR_FILE = "";
 	
 	// Main Processing Unit
 	processor CPU(.clock(clock), .reset(reset), 
@@ -79,20 +80,25 @@ module Wrapper (input CLK100MHZ, input BTNR, output [4:1] JB, output [15:0] LED,
 		.ctrl_writeReg(rd),
 		.ctrl_readRegA(rs1), .ctrl_readRegB(rs2), 
 		.data_writeReg(rData), .data_readRegA(regA), .data_readRegB(regB));
-	
+
+    assign memAddrSensorA = 32'd4008;	
 	assign memAddrMotorA = 32'd4009;
-	assign memAddrSensorA = 32'd4008;
+
+	assign memAddrSensorB = 32'd4018;
+	assign memAddrMotorB = 32'd4010;
 						
 	// Processor Memory (RAM)
 	RAM ProcMem(.clk(clock), 
 		.wEn(mwe), 
 		.addr(memAddr[11:0]),
 		.addrMotorA(memAddrMotorA[11:0]), 
+		.addrMotorB(memAddrMotorB[11:0]),
 		.addrSensorA(memAddrSensorA[11:0]),
 		.dataInSensorA(~JC[1]),
 		.dataIn(memDataIn), 
 		.dataOut(memDataOut),
-		.dataOutMotorA(memDataOutMotorA)
+		.dataOutMotorA(memDataOutMotorA),
+		.dataOutMotorB(memDataOutMotorB)
 		);
 
     assign LED [14:0] = memDataOutMotorA[14:0];
